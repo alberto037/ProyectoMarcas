@@ -1,0 +1,91 @@
+<zoo>
+    <habitats>
+        <habitat id="h1" nombre="Sabana" ubicacion="África">
+            <descripcion>Amplias llanuras con clima cálido</descripcion>
+            <animal_ref id="a1"/>
+            <animal_ref id="a2"/>
+            <detalles_habitat>
+                <vegetacion>Poca, principalmente hierbas y arbustos</vegetacion>
+                <comentarios>La sabana es hogar de una gran diversidad de animales</comentarios>
+                <otros>Estación seca y húmeda marcadas</otros>
+            </detalles_habitat>
+        </habitat>
+        <habitat id="h2" nombre="Selva" ubicacion="América del Sur">
+            <descripcion>Densa vegetación con alta biodiversidad</descripcion>
+            <animal_ref id="a3"/>
+            <animal_ref id="a4"/>
+            <detalles_habitat>
+                <vegetacion>Muy densa, árboles altos y mucha sombra</vegetacion>
+                <comentarios>Las selvas albergan una gran variedad de especies</comentarios>
+                <otros>Clima cálido y húmedo todo el año</otros>
+            </detalles_habitat>
+        </habitat>
+        <habitat id="h3" nombre="Desierto" ubicacion="África del Norte">
+            <descripcion>Clima árido con escasa vegetación</descripcion>
+            <animal_ref id="a5"/>
+            <animal_ref id="a6"/>
+            <detalles_habitat>
+                <vegetacion>Casi nula, adaptada a la sequía</vegetacion>
+                <comentarios>Los animales del desierto están adaptados a la falta de agua</comentarios>
+                <otros>Días muy calurosos y noches frías</otros>
+            </detalles_habitat>
+        </habitat>
+        <habitat id="h4" nombre="Bosque" ubicacion="Europa">
+            <descripcion>Zonas con muchos árboles y clima templado</descripcion>
+            <animal_ref id="a7"/>
+            <animal_ref id="a8"/>
+            <detalles_habitat>
+                <vegetacion>Abundante, principalmente árboles caducifolios y coníferas</vegetacion>
+                <comentarios>Los bosques son cruciales para el equilibrio ecológico</comentarios>
+                <otros>Cuatro estaciones bien definidas</otros>
+            </detalles_habitat>
+        </habitat>
+        <habitat id="h5" nombre="Océano" ubicacion="Mundial">
+            <descripcion>Gran masa de agua salada que cubre la mayor parte del planeta</descripcion>
+            <animal_ref id="a9"/>
+            <animal_ref id="a10"/>
+            <detalles_habitat>
+                <vegetacion>Algas y plantas marinas</vegetacion>
+                <comentarios>El océano es el hábitat más grande y diverso de la Tierra</comentarios>
+                <otros>Profundidades y temperaturas muy variadas</otros>
+            </detalles_habitat>
+        </habitat>
+    </habitats>
+
+    <animales>
+        <animal id="a1" nombre="León" especie="Panthera leo">
+            <descripcion>El rey de la selva</descripcion>
+            <habitat_ref id="h1"/>
+        </animal>
+        <animal id="a2" nombre="Elefante" especie="Loxodonta africana">
+            <descripcion>El mamífero terrestre más grande</descripcion>
+            <habitat_ref id="h1"/>
+        </animal>
+        <animal id="a3" nombre="Jaguar" especie="Panthera onca">
+            <descripcion>Gran felino de la selva</descripcion>
+            <habitat_ref id="h2"/>
+        </animal>
+        <animal id="a4" nombre="Mono Aullador" especie="Alouatta palliata">
+            <descripcion>Conocido por su fuerte aullido</descripcion>
+            <habitat_ref id="h2"/>
+        </animal>
+        <animal id="a5" nombre="Camello" especie="Camelus dromedarius">
+            <descripcion>Adaptado a la vida en el desierto</descripcion>
+            <habitat_ref id="h3"/>
+        </animal>
+        <animal id="a6" nombre="Fennec" especie="Vulpes zerda">
+            <descripcion>Pequeño zorro del desierto</descripcion>
+            <habitat_ref id="h3"/>
+        </animal>
+        <animal id="a7" nombre="Ciervo" especie="Cervus elaphus">
+            <descripcion>Herbívoro común en los bosques</descripcion>
+            <habitat_ref id="h4"/>
+        </animal>
+        <animal id="a8" nombre="Lobo" especie="Canis lupus">
+            <descripcion>Depredador de los bosques</descripcion>
+            <habitat_ref id="h4"/>
+        </animal>
+       
+       
+    </animales>
+</zoo>
